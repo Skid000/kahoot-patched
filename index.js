@@ -1,4 +1,4 @@
-const Kahoot = require("kahoot.js-updated");
+const Kahoot = require("./kahoot-patched/index.js");
 const client = new Kahoot();
 var prompt = require('prompt-sync')();
 var unicodePassgen = require('unicode-passgen');
